@@ -624,7 +624,7 @@ class Radar:
         self.config = config or json.loads((root / "config.json").read_text())
         self.store = Store(database or root / "data" / "radar.sqlite3", self.config)
         self.stop = threading.Event()
-        self.last_test = 0
+        self.last_test = float('-inf')
         self.poller_thread=None
         self.poller_heartbeat=None
 
@@ -775,7 +775,7 @@ class Radar:
         try:
             while not self.stop.is_set():
                 server.handle_request()
-                if not thread.is_alive() or (self.poller_heartbeat and time.time()-self.poller_heartbeat>90):
+                if not self.stop.is_set() and (not thread.is_alive() or (self.poller_heartbeat and time.time()-self.poller_heartbeat>90)):
                     raise RuntimeError('Polling worker stopped or stalled; supervisor should restart collector')
         finally:
             self.stop.set()

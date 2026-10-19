@@ -4,7 +4,6 @@ import argparse
 from pathlib import Path
 import platform
 import plistlib
-import shutil
 import subprocess
 
 BUNDLE_ID='com.sueun.ai-news-radar.notifier'
@@ -13,11 +12,12 @@ def build(output,port=8741,data_dir=None):
     if platform.system()!='Darwin':raise RuntimeError('The notification helper requires macOS.')
     if not 1024<=port<=65535:raise ValueError('Invalid local port')
     compiler=subprocess.run(['xcrun','--find','swiftc'],capture_output=True,text=True,check=True).stdout.strip()
+    sdk=subprocess.run(['xcrun','--sdk','macosx','--show-sdk-path'],capture_output=True,text=True,check=True).stdout.strip()
     arch=platform.machine()
     if arch not in ('arm64','x86_64'):raise RuntimeError('Unsupported Mac architecture: '+arch)
     contents=Path(output)/'Contents';binary=contents/'MacOS'/'AIRadar'
     binary.parent.mkdir(parents=True,exist_ok=True)
-    subprocess.run([compiler,str(Path(__file__).parent/'native/main.swift'),'-O',
+    subprocess.run([compiler,str(Path(__file__).parent/'native/main.swift'),'-O','-sdk',sdk,
                     '-target',arch+'-apple-macos13.0','-framework','AppKit','-framework','UserNotifications',
                     '-o',str(binary)],check=True)
     info=dict(CFBundleDisplayName='AI News Radar',CFBundleName='AI News Radar',CFBundleExecutable='AIRadar',
