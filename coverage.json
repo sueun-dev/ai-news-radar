@@ -1,0 +1,206 @@
+{
+  "checked_at": "2026-10-19T18:49:11.805+00:00",
+  "active_sources": 203,
+  "distinct_hosts": 102,
+  "attempted_endpoints": 251,
+  "groups": {
+    "community": 4,
+    "discovery": 18,
+    "korea": 12,
+    "media": 26,
+    "models": 29,
+    "official": 31,
+    "policy": 2,
+    "releases": 40,
+    "research": 16,
+    "tools": 25
+  },
+  "excluded": [
+    {
+      "id": "microsoft-ai",
+      "name": "Microsoft AI Blog",
+      "url": "https://blogs.microsoft.com/ai/feed/",
+      "reason": "HTTP 410",
+      "checked_at": "2026-10-19T18:33:36.064+00:00"
+    },
+    {
+      "id": "huggingface-community",
+      "name": "Hugging Face Community Blog",
+      "url": "https://huggingface.co/blog/community/feed.xml",
+      "reason": "HTTP 404",
+      "checked_at": "2026-10-19T18:33:39.503+00:00"
+    },
+    {
+      "id": "runway",
+      "name": "Runway",
+      "url": "https://runway.com/news",
+      "reason": "Parsed zero entries",
+      "checked_at": "2026-10-19T18:37:54.918+00:00"
+    },
+    {
+      "id": "venturebeat-ai",
+      "name": "VentureBeat AI",
+      "url": "https://venturebeat.com/category/ai/feed/",
+      "reason": "HTTP 429",
+      "checked_at": "2026-10-19T18:33:44.709+00:00"
+    },
+    {
+      "id": "the-batch",
+      "name": "The Batch",
+      "url": "https://www.deeplearning.ai/the-batch/feed/",
+      "reason": "HTTP 308",
+      "checked_at": "2026-10-19T18:33:47.586+00:00"
+    },
+    {
+      "id": "bloter",
+      "name": "Bloter",
+      "url": "https://www.bloter.net/feed",
+      "reason": "HTTP 404",
+      "checked_at": "2026-10-19T18:33:49.756+00:00"
+    },
+    {
+      "id": "zdnet-kr",
+      "name": "ZDNET Korea",
+      "url": "https://zdnet.co.kr/news/news_xml.asp",
+      "reason": "HTTP 404",
+      "checked_at": "2026-10-19T18:33:51.307+00:00"
+    },
+    {
+      "id": "lg-ai",
+      "name": "LG AI Research",
+      "url": "https://www.lgresearch.ai/blog/",
+      "reason": "Parsed zero entries",
+      "checked_at": "2026-10-19T18:35:59.377+00:00"
+    },
+    {
+      "id": "naver-cloud",
+      "name": "NAVER Cloud",
+      "url": "https://blog.naver.com/rss/n_cloudplatform.xml",
+      "reason": "HTTP 404",
+      "checked_at": "2026-10-19T18:33:53.572+00:00"
+    },
+    {
+      "id": "sk-devocean",
+      "name": "SK Devocean",
+      "url": "https://devocean.sk.com/blog/rss.do",
+      "reason": "Parsed zero entries",
+      "checked_at": "2026-10-19T18:33:54.008+00:00"
+    },
+    {
+      "id": "reddit-ml",
+      "name": "Reddit MachineLearning",
+      "url": "https://www.reddit.com/r/MachineLearning/new/.rss",
+      "reason": "HTTP 429",
+      "checked_at": "2026-10-19T18:33:54.497+00:00"
+    },
+    {
+      "id": "ftc",
+      "name": "FTC News",
+      "url": "https://www.ftc.gov/feeds/press-release.xml",
+      "reason": "HTTP 404",
+      "checked_at": "2026-10-19T18:33:58.241+00:00"
+    },
+    {
+      "id": "science-ai",
+      "name": "Science Robotics",
+      "url": "https://www.science.org/action/showFeed?type=etoc&feed=rss&jc=robotics",
+      "reason": "HTTP 404",
+      "checked_at": "2026-10-19T18:33:58.292+00:00"
+    },
+    {
+      "id": "oecd-ai",
+      "name": "OECD AI",
+      "url": "https://oecd.ai/en/rss",
+      "reason": "HTTP 404",
+      "checked_at": "2026-10-19T18:33:59.775+00:00"
+    },
+    {
+      "id": "xai",
+      "name": "xAI",
+      "url": "https://x.ai/news",
+      "reason": "HTTP 403",
+      "checked_at": "2026-10-19T18:35:45.423+00:00"
+    },
+    {
+      "id": "zai",
+      "name": "Z.ai",
+      "url": "https://z.ai/blog",
+      "reason": "HTTP 404",
+      "checked_at": "2026-10-19T18:35:49.957+00:00"
+    },
+    {
+      "id": "windsurf",
+      "name": "Windsurf",
+      "url": "https://windsurf.com/blog",
+      "reason": "HTTP 308",
+      "checked_at": "2026-10-19T18:35:49.998+00:00"
+    },
+    {
+      "id": "openai-release-notes",
+      "name": "OpenAI Release Notes",
+      "url": "https://help.openai.com/en/articles/6825453-chatgpt-release-notes",
+      "reason": "HTTP 403",
+      "checked_at": "2026-10-19T18:35:58.842+00:00"
+    },
+    {
+      "id": "samsung-research",
+      "name": "Samsung Research",
+      "url": "https://research.samsung.com/blog",
+      "reason": "Parsed zero entries",
+      "checked_at": "2026-10-19T18:36:00.731+00:00"
+    },
+    {
+      "id": "deepseek-github",
+      "name": "DeepSeek Research Repositories",
+      "url": "https://github.com/deepseek-ai.atom",
+      "reason": "Parsed zero entries",
+      "checked_at": "2026-10-19T18:37:45.978+00:00"
+    },
+    {
+      "id": "naver-clova",
+      "name": "NAVER CLOVA",
+      "url": "https://clova.ai/tech-blog/rss",
+      "reason": "Parsed zero entries",
+      "checked_at": "2026-10-19T18:37:49.826+00:00"
+    },
+    {
+      "id": "preferred-networks",
+      "name": "Preferred Networks",
+      "url": "https://tech.preferred.jp/ja/feed/",
+      "reason": "ParseError: not well-formed (invalid token): line 1, column 3406",
+      "checked_at": "2026-10-19T18:37:53.239+00:00"
+    },
+    {
+      "id": "moonshot",
+      "name": "Moonshot / Kimi",
+      "url": "https://moonshotai.github.io/",
+      "reason": "Parsed zero entries",
+      "checked_at": "2026-10-19T18:37:59.046+00:00"
+    },
+    {
+      "id": "repos-baai-datalab",
+      "name": "GitHub · BAAI-Datalab 새 저장소",
+      "url": "https://github.com/orgs/BAAI-Datalab/repositories?type=all&sort=created",
+      "reason": "HTTP 404",
+      "checked_at": "2026-10-19T18:46:00.642+00:00"
+    }
+  ],
+  "notes": [
+    "이번 조사에서 실제 응답·형식을 확인한 공개 경로를 등록했습니다. 수집 경로 수는 서로 다른 매체 수가 아닙니다. 같은 기관의 블로그·릴리스·모델 목록은 별도 경로입니다.",
+    "Google News는 여러 언어·주제의 검색 결과를 보완 수집합니다. 검색 결과는 전수 목록이 아니며 응답당 노출 개수와 색인 지연에 제한이 있습니다.",
+    "유료 본문·로그인 전용 글·비공개 Discord/Slack/Telegram·개인 메일 뉴스레터·모든 X/Threads/LinkedIn 게시물은 수집하지 않습니다. X 공식 알림은 각 기기의 X·브라우저에서 별도로 설정해야 합니다.",
+    "범용 기술 매체는 제목·피드 본문의 AI 키워드로 추립니다. 누락과 인접 분야의 오탐 가능성이 있습니다. 커뮤니티·독립 블로그 내용은 검증된 공식 발표와 다릅니다.",
+    "RSS는 공급자가 노출한 항목, HTML은 현재 목록의 기사 링크를 읽습니다. 사이트맵은 새 URL을 발견하며 제목·최초 공개 시각이 없을 수 있습니다. 사이트맵을 전체 기사 본문 수집으로 보지 않습니다.",
+    "Hugging Face의 인증 없는 공개 모델 목록만 조회합니다. 유료 추론·파일 다운로드·계정 토큰을 사용하지 않습니다. 모델 저장소 생성은 검증된 신제품 출시와 같지 않습니다.",
+    "Mac이 잠들거나 오프라인이면 수집이 중단됩니다. 공급자 캐시·차단·구조 변경·피드 노출 한도로 누락될 수 있습니다. 모든 AI 소식의 누락 0건·국내 최속은 보장하지 않습니다.",
+    "아래 제외 목록은 조사 당시의 상태입니다. 403·429 등 접근 제한은 우회하지 않았으며, 다른 공개 소스를 통해 보완되는 기관도 있습니다."
+  ],
+  "collection_policy": {
+    "target": "약 1시간 이내를 목표로 한 5~30분 조회; 전달 보장 아님",
+    "official_korea_major_releases_seconds": 300,
+    "general_seconds": 600,
+    "sitemaps_seconds": 900,
+    "research_policy_repository_lists_seconds": 1800,
+    "workers": 4
+  }
+}

@@ -1,0 +1,204 @@
+﻿id,name,group,region,kind,url,interval_seconds,priority,notify,filter_ai
+openai,OpenAI News,official,global,feed,https://openai.com/news/rss.xml,300,0,True,
+anthropic,Anthropic News,official,global,anthropic,https://www.anthropic.com/news,300,0,True,
+deepmind,Google DeepMind,official,global,feed,https://deepmind.google/blog/rss.xml,300,0,True,
+gemini,Gemini API Changelog,official,global,changelog,https://ai.google.dev/gemini-api/docs/changelog,300,0,True,
+codex,Codex Releases,releases,global,feed,https://github.com/openai/codex/releases.atom,300,0,True,
+claude-code,Claude Code Releases,releases,global,feed,https://github.com/anthropics/claude-code/releases.atom,300,0,True,
+huggingface,Hugging Face Blog,official,global,feed,https://huggingface.co/blog/feed.xml,300,0,True,
+ai21,AI21,official,global,links,https://www.ai21.com/blog/,300,2,True,
+aibusiness,AI Business,media,global,feed,https://aibusiness.com/rss.xml,600,5,True,False
+aisnakeoil,AI Snake Oil,media,global,feed,https://www.aisnakeoil.com/feed,600,5,True,False
+aitimes,AI Times Korea,korea,kr,feed,https://www.aitimes.com/rss/allArticle.xml,300,5,True,False
+aitimeskr,인공지능신문,korea,kr,feed,https://www.aitimes.kr/rss/allArticle.xml,300,5,True,False
+allenai,Allen Institute for AI,official,global,feed,https://allenai.org/rss.xml,300,2,True,
+amazon-science,Amazon Science,official,global,links,https://www.amazon.science/blog,300,2,True,
+anthropic-engineering,Anthropic Engineering,tools,global,links,https://www.anthropic.com/engineering,600,5,True,
+anthropic-research,Anthropic Research,research,global,links,https://www.anthropic.com/research,1800,10,False,
+apple-ml,Apple Machine Learning Research,official,global,feed,https://machinelearning.apple.com/rss.xml,300,2,True,False
+ars,Ars Technica,media,global,feed,https://feeds.arstechnica.com/arstechnica/index,600,5,True,True
+arstechnica-ai,Ars AI,media,global,feed,https://arstechnica.com/ai/feed/,600,5,True,
+arxiv-cs-ai,arXiv cs.AI,research,global,feed,https://rss.arxiv.org/rss/cs.AI,1800,10,False,
+arxiv-cs-cl,arXiv cs.CL,research,global,feed,https://rss.arxiv.org/rss/cs.CL,1800,10,False,
+arxiv-cs-cv,arXiv cs.CV,research,global,feed,https://rss.arxiv.org/rss/cs.CV,1800,10,False,
+arxiv-cs-lg,arXiv cs.LG,research,global,feed,https://rss.arxiv.org/rss/cs.LG,1800,10,False,
+arxiv-cs-ma,arXiv cs.MA,research,global,feed,https://rss.arxiv.org/rss/cs.MA,1800,10,False,
+arxiv-cs-ne,arXiv cs.NE,research,global,feed,https://rss.arxiv.org/rss/cs.NE,1800,10,False,
+arxiv-cs-ro,arXiv cs.RO,research,global,feed,https://rss.arxiv.org/rss/cs.RO,1800,10,False,
+arxiv-cs-sd,arXiv cs.SD,research,global,feed,https://rss.arxiv.org/rss/cs.SD,1800,10,False,
+arxiv-eess-as,arXiv eess.AS,research,global,feed,https://rss.arxiv.org/rss/eess.AS,1800,10,False,
+arxiv-stat-ml,arXiv stat.ML,research,global,feed,https://rss.arxiv.org/rss/stat.ML,1800,10,False,
+aws-ai,AWS AI Announcements,official,global,feed,https://aws.amazon.com/about-aws/whats-new/recent/feed/,300,2,True,True
+aws-ml,AWS Machine Learning,official,global,feed,https://aws.amazon.com/blogs/machine-learning/feed/,300,2,True,False
+azure-ai,Microsoft Azure AI,official,global,feed,https://azure.microsoft.com/en-us/blog/category/ai-machine-learning/feed/,300,2,True,False
+bair,Berkeley AI Research,official,global,feed,https://bair.berkeley.edu/blog/feed.xml,300,2,True,False
+bbc-tech,BBC Technology,media,global,feed,https://feeds.bbci.co.uk/news/technology/rss.xml,600,5,True,True
+bfl,Black Forest Labs,tools,global,links,https://bfl.ai/blog,600,5,True,
+bloomberg-tech,Bloomberg Technology,media,global,feed,https://feeds.bloomberg.com/technology/news.rss,600,5,True,True
+cloudflare-ai,Cloudflare Blog,tools,global,feed,https://blog.cloudflare.com/rss/,600,5,True,True
+cmu-ml,CMU Machine Learning,official,global,feed,https://blog.ml.cmu.edu/feed/,300,2,True,False
+cnbc-tech,CNBC Technology,media,global,feed,https://www.cnbc.com/id/19854910/device/rss/rss.html,600,5,True,True
+cohere,Cohere,official,global,links,https://cohere.com/blog,300,2,True,
+cursor,Cursor,tools,global,links,https://cursor.com/blog,600,5,True,
+databricks,Databricks,official,global,feed,https://www.databricks.com/feed,300,2,True,True
+deepseek-news,DeepSeek API News,official,global,links,https://api-docs.deepseek.com/updates,300,2,True,
+devin,Devin / Windsurf,tools,global,feed,https://devin.ai/rss.xml,600,5,True,
+distill,Distill,research,global,feed,https://distill.pub/rss.xml,1800,10,False,False
+elevenlabs,ElevenLabs,tools,global,feed,https://elevenlabs.io/blog/rss.xml,600,5,True,
+etnews,전자신문,korea,kr,feed,https://rss.etnews.com/Section901.xml,300,5,True,True
+eu-digital,EU Digital Strategy,policy,global,feed,https://digital-strategy.ec.europa.eu/en/rss.xml,1800,10,False,True
+fireworks,Fireworks AI,tools,global,links,https://fireworks.ai/blog,600,5,True,
+ft-ai,Financial Times AI,media,global,feed,https://www.ft.com/artificial-intelligence?format=rss,600,5,True,
+geeknews,GeekNews,community,global,feed,https://news.hada.io/rss,600,10,False,True
+github-ai,GitHub AI Blog,tools,global,feed,https://github.blog/ai-and-ml/feed/,600,5,True,False
+github-changelog,GitHub Changelog,tools,global,feed,https://github.blog/changelog/feed/,600,5,True,True
+gnews-chips,Google News chips,discovery,us,feed,https://news.google.com/rss/search?q=%28NVIDIA%20OR%20AMD%20OR%20TPU%20OR%20GPU%29%20%28AI%20OR%20inference%20OR%20training%29%20when%3A1d&hl=en-US&gl=US&ceid=US:en,600,10,False,
+gnews-creative,Google News creative,discovery,us,feed,https://news.google.com/rss/search?q=%28%22AI%20video%22%20OR%20%22AI%20image%22%20OR%20%22AI%20voice%22%20OR%20%22text-to-video%22%20OR%20%22diffusion%20model%22%29%20when%3A1d&hl=en-US&gl=US&ceid=US:en,600,10,False,
+gnews-de-ai,Google News de-ai,discovery,de,feed,https://news.google.com/rss/search?q=%22k%C3%BCnstliche%20Intelligenz%22%20when%3A1d&hl=de&gl=DE&ceid=DE:de,600,10,False,
+gnews-en-all,Google News en-all,discovery,us,feed,https://news.google.com/rss/search?q=%22artificial%20intelligence%22%20OR%20%22generative%20AI%22%20OR%20LLM%20when%3A1d&hl=en-US&gl=US&ceid=US:en,600,10,False,
+gnews-en-business,Google News en-business,discovery,us,feed,https://news.google.com/rss/search?q=AI%20funding%20OR%20AI%20acquisition%20OR%20AI%20regulation%20OR%20AI%20chips%20when%3A1d&hl=en-US&gl=US&ceid=US:en,600,10,False,
+gnews-en-models,Google News en-models,discovery,us,feed,https://news.google.com/rss/search?q=OpenAI%20OR%20Anthropic%20OR%20DeepSeek%20OR%20Qwen%20OR%20Mistral%20OR%20Gemini%20when%3A1d&hl=en-US&gl=US&ceid=US:en,600,10,False,
+gnews-en-tools,Google News en-tools,discovery,us,feed,https://news.google.com/rss/search?q=AI%20agent%20OR%20AI%20coding%20OR%20AI%20video%20OR%20AI%20voice%20when%3A1d&hl=en-US&gl=US&ceid=US:en,600,10,False,
+gnews-es-ai,Google News es-ai,discovery,es,feed,https://news.google.com/rss/search?q=%22inteligencia%20artificial%22%20when%3A1d&hl=es&gl=ES&ceid=ES:es,600,10,False,
+gnews-fr-ai,Google News fr-ai,discovery,fr,feed,https://news.google.com/rss/search?q=%22intelligence%20artificielle%22%20when%3A1d&hl=fr&gl=FR&ceid=FR:fr,600,10,False,
+gnews-in-ai,Google News in-ai,discovery,in,feed,https://news.google.com/rss/search?q=%22artificial%20intelligence%22%20when%3A1d&hl=en-IN&gl=IN&ceid=IN:en,600,10,False,
+gnews-ja-ai,Google News ja-ai,discovery,jp,feed,https://news.google.com/rss/search?q=%E7%94%9F%E6%88%90AI%20OR%20%E4%BA%BA%E5%B7%A5%E7%9F%A5%E8%83%BD%20when%3A1d&hl=ja&gl=JP&ceid=JP:ja,600,10,False,
+gnews-ko-all,Google News ko-all,discovery,kr,feed,https://news.google.com/rss/search?q=AI%20OR%20%EC%9D%B8%EA%B3%B5%EC%A7%80%EB%8A%A5%20OR%20%EC%83%9D%EC%84%B1%ED%98%95%20when%3A1d&hl=ko&gl=KR&ceid=KR:ko,600,10,False,
+gnews-kr-industry,Google News kr-industry,discovery,kr,feed,https://news.google.com/rss/search?q=%28%EC%9D%B8%EA%B3%B5%EC%A7%80%EB%8A%A5%20OR%20AI%29%20%28%ED%88%AC%EC%9E%90%20OR%20%EB%B0%98%EB%8F%84%EC%B2%B4%20OR%20%EA%B7%9C%EC%A0%9C%20OR%20%EB%A1%9C%EB%B4%87%29%20when%3A1d&hl=ko&gl=KR&ceid=KR:ko,600,10,False,
+gnews-policy,Google News policy,discovery,us,feed,https://news.google.com/rss/search?q=%28%22AI%22%20OR%20%22artificial%20intelligence%22%29%20%28law%20OR%20regulation%20OR%20copyright%20OR%20safety%20OR%20security%20OR%20jobs%29%20when%3A1d&hl=en-US&gl=US&ceid=US:en,600,10,False,
+gnews-pt-ai,Google News pt-ai,discovery,br,feed,https://news.google.com/rss/search?q=%22intelig%C3%AAncia%20artificial%22%20when%3A1d&hl=pt-BR&gl=BR&ceid=BR:pt,600,10,False,
+gnews-robotics,Google News robotics,discovery,us,feed,https://news.google.com/rss/search?q=%28%22humanoid%20robot%22%20OR%20%22robotics%22%20OR%20%22embodied%20AI%22%29%20when%3A1d&hl=en-US&gl=US&ceid=US:en,600,10,False,
+gnews-science,Google News science,discovery,us,feed,https://news.google.com/rss/search?q=%28%22AI%22%20OR%20%22machine%20learning%22%29%20%28medicine%20OR%20biology%20OR%20science%20OR%20education%20OR%20climate%29%20when%3A1d&hl=en-US&gl=US&ceid=US:en,600,10,False,
+gnews-zh-ai,Google News zh-ai,discovery,cn,feed,https://news.google.com/rss/search?q=%E4%BA%BA%E5%B7%A5%E6%99%BA%E8%83%BD%20OR%20%E5%A4%A7%E6%A8%A1%E5%9E%8B%20when%3A1d&hl=zh-CN&gl=CN&ceid=CN:zh,600,10,False,
+google-ai,Google AI,official,global,feed,https://blog.google/technology/ai/rss/,300,2,True,False
+google-developers,Google Developers,tools,global,feed,https://developers.googleblog.com/feeds/posts/default?alt=rss,600,5,True,True
+google-research,Google Research,official,global,feed,https://research.google/blog/rss/,300,2,True,False
+groq,Groq,tools,global,links,https://groq.com/blog,600,5,True,
+guardian-ai,The Guardian AI,media,global,feed,https://www.theguardian.com/technology/artificialintelligenceai/rss,600,5,True,False
+hn-ai,Hacker News newest,community,global,feed,https://hnrss.org/newest?count=100,600,10,False,True
+huggingface-papers,Hugging Face Daily Papers,research,global,links,https://huggingface.co/papers,1800,10,False,
+ibm-research,IBM Research,official,global,feed,https://research.ibm.com/rss,300,2,True,
+ieee-ai,IEEE Spectrum AI,media,global,feed,https://spectrum.ieee.org/feeds/topic/artificial-intelligence.rss,600,5,True,False
+import-ai,Import AI,media,global,feed,https://importai.substack.com/feed,600,5,True,False
+interconnects,Interconnects,media,global,feed,https://www.interconnects.ai/feed,600,5,True,False
+itworld,ITWorld Korea,korea,kr,feed,https://www.itworld.co.kr/rss/,300,5,True,True
+jmlr,JMLR,research,global,feed,https://www.jmlr.org/jmlr.xml,1800,10,False,False
+kakao-tech,Kakao Tech,korea,kr,feed,https://tech.kakao.com/feed/,300,5,True,True
+kakaoenterprise,Kakao Enterprise Tech,korea,kr,feed,https://tech.kakaoenterprise.com/feed,300,5,True,True
+langchain,LangChain,tools,global,links,https://www.langchain.com/blog,600,5,True,
+langchain-map,LangChain Blog Sitemap,tools,global,sitemap,https://www.langchain.com/sitemap.xml,900,5,False,
+latent-space,Latent Space,media,global,feed,https://www.latent.space/feed,600,5,True,False
+lg-map,LG AI Research Sitemap,korea,kr,sitemap,https://www.lgresearch.ai/sitemap.xml,900,5,False,
+llamaindex,LlamaIndex,tools,global,links,https://www.llamaindex.ai/blog,600,5,True,
+luma,Luma AI,tools,global,links,https://lumalabs.ai/news,600,5,True,
+marktechpost,MarkTechPost,media,global,feed,https://www.marktechpost.com/feed/,600,5,True,False
+meta-ai,Meta AI,official,global,links,https://ai.meta.com/blog/,300,2,True,
+meta-engineering,Meta Engineering,official,global,feed,https://engineering.fb.com/feed/,300,2,True,True
+microsoft-research,Microsoft Research,official,global,feed,https://www.microsoft.com/en-us/research/feed/,300,2,True,False
+minimax,MiniMax,official,global,links,https://www.minimax.io/news,300,2,True,
+minimax-map,MiniMax News Sitemap,official,global,sitemap,https://www.minimax.io/sitemap.xml,900,2,False,
+mistral,Mistral,official,global,feed,https://mistral.ai/news/rss,300,2,True,
+mit-ai,MIT AI News,official,global,feed,https://news.mit.edu/rss/topic/artificial-intelligence2,300,2,True,False
+mit-techreview,MIT Technology Review,media,global,feed,https://www.technologyreview.com/feed/,600,5,True,True
+modal,Modal,tools,global,feed,https://modal.com/blog/atom.xml,600,5,True,
+models-ai21labs,Hugging Face · ai21labs,models,global,hf_models,https://huggingface.co/api/models?author=ai21labs&sort=createdAt&direction=-1&limit=30,600,2,True,
+models-allenai,Hugging Face · allenai,models,global,hf_models,https://huggingface.co/api/models?author=allenai&sort=createdAt&direction=-1&limit=30,600,2,True,
+models-baidu,Hugging Face · baidu,models,global,hf_models,https://huggingface.co/api/models?author=baidu&sort=createdAt&direction=-1&limit=30,600,2,True,
+models-black-forest-labs,Hugging Face · black-forest-labs,models,global,hf_models,https://huggingface.co/api/models?author=black-forest-labs&sort=createdAt&direction=-1&limit=30,600,2,True,
+models-coherelabs,Hugging Face · CohereLabs,models,global,hf_models,https://huggingface.co/api/models?author=CohereLabs&sort=createdAt&direction=-1&limit=30,600,2,True,
+models-deepseek-ai,Hugging Face · deepseek-ai,models,global,hf_models,https://huggingface.co/api/models?author=deepseek-ai&sort=createdAt&direction=-1&limit=30,600,2,True,
+models-google,Hugging Face · google,models,global,hf_models,https://huggingface.co/api/models?author=google&sort=createdAt&direction=-1&limit=30,600,2,True,
+models-meta-llama,Hugging Face · meta-llama,models,global,hf_models,https://huggingface.co/api/models?author=meta-llama&sort=createdAt&direction=-1&limit=30,600,2,True,
+models-microsoft,Hugging Face · microsoft,models,global,hf_models,https://huggingface.co/api/models?author=microsoft&sort=createdAt&direction=-1&limit=30,600,2,True,
+models-minimaxai,Hugging Face · MiniMaxAI,models,global,hf_models,https://huggingface.co/api/models?author=MiniMaxAI&sort=createdAt&direction=-1&limit=30,600,2,True,
+models-moonshotai,Hugging Face · moonshotai,models,global,hf_models,https://huggingface.co/api/models?author=moonshotai&sort=createdAt&direction=-1&limit=30,600,2,True,
+models-nvidia,Hugging Face · nvidia,models,global,hf_models,https://huggingface.co/api/models?author=nvidia&sort=createdAt&direction=-1&limit=30,600,2,True,
+models-openai,Hugging Face · openai,models,global,hf_models,https://huggingface.co/api/models?author=openai&sort=createdAt&direction=-1&limit=30,600,2,True,
+models-qwen,Hugging Face · Qwen,models,global,hf_models,https://huggingface.co/api/models?author=Qwen&sort=createdAt&direction=-1&limit=30,600,2,True,
+models-stabilityai,Hugging Face · stabilityai,models,global,hf_models,https://huggingface.co/api/models?author=stabilityai&sort=createdAt&direction=-1&limit=30,600,2,True,
+models-stepfun-ai,Hugging Face · stepfun-ai,models,global,hf_models,https://huggingface.co/api/models?author=stepfun-ai&sort=createdAt&direction=-1&limit=30,600,2,True,
+models-tencent,Hugging Face · tencent,models,global,hf_models,https://huggingface.co/api/models?author=tencent&sort=createdAt&direction=-1&limit=30,600,2,True,
+models-zai-org,Hugging Face · zai-org,models,global,hf_models,https://huggingface.co/api/models?author=zai-org&sort=createdAt&direction=-1&limit=30,600,2,True,
+nature-ai,Nature Machine Intelligence,research,global,feed,https://www.nature.com/natmachintell.rss,1800,10,False,False
+naver-d2,NAVER D2,korea,kr,feed,https://d2.naver.com/d2.atom,300,5,True,True
+naver-news,NAVER News,korea,kr,links,https://www.navercorp.com/media/pressReleases,300,5,True,True
+nist,NIST News,policy,global,feed,https://www.nist.gov/news-events/news/rss.xml,1800,10,False,True
+nvidia,NVIDIA Blog,official,global,feed,https://blogs.nvidia.com/feed/,300,2,True,True
+nvidia-developer,NVIDIA Developer,official,global,feed,https://developer.nvidia.com/blog/feed/,300,2,True,True
+ollama-blog,Ollama Blog,tools,global,feed,https://ollama.com/blog/rss.xml,600,5,True,False
+pytorch-blog,PyTorch Blog,tools,global,feed,https://pytorch.org/blog/feed.xml,600,5,True,
+qwen,Qwen,official,global,feed,https://qwenlm.github.io/blog/index.xml,300,2,True,
+reddit-local,Reddit LocalLLaMA,community,global,feed,https://www.reddit.com/r/LocalLLaMA/new/.rss,600,10,False,False
+release-aider,Aider-AI/aider Releases,releases,global,feed,https://github.com/Aider-AI/aider/releases.atom,600,8,True,
+release-anthropic-python,anthropics/anthropic-sdk-python Releases,releases,global,feed,https://github.com/anthropics/anthropic-sdk-python/releases.atom,600,8,True,
+release-bentoml,bentoml/BentoML Releases,releases,global,feed,https://github.com/bentoml/BentoML/releases.atom,600,8,True,
+release-cline,cline/cline Releases,releases,global,feed,https://github.com/cline/cline/releases.atom,600,8,True,
+release-comfyui,Comfy-Org/ComfyUI Releases,releases,global,feed,https://github.com/Comfy-Org/ComfyUI/releases.atom,300,3,True,
+release-datasets,huggingface/datasets Releases,releases,global,feed,https://github.com/huggingface/datasets/releases.atom,600,8,True,
+release-diffusers,huggingface/diffusers Releases,releases,global,feed,https://github.com/huggingface/diffusers/releases.atom,600,8,True,
+release-dspy,stanfordnlp/dspy Releases,releases,global,feed,https://github.com/stanfordnlp/dspy/releases.atom,600,8,True,
+release-gemini-cli,google-gemini/gemini-cli Releases,releases,global,feed,https://github.com/google-gemini/gemini-cli/releases.atom,600,8,True,
+release-google-genai,googleapis/python-genai Releases,releases,global,feed,https://github.com/googleapis/python-genai/releases.atom,600,8,True,
+release-langchain,langchain-ai/langchain Releases,releases,global,feed,https://github.com/langchain-ai/langchain/releases.atom,600,8,True,
+release-langgraph,langchain-ai/langgraph Releases,releases,global,feed,https://github.com/langchain-ai/langgraph/releases.atom,600,8,True,
+release-litellm,BerriAI/litellm Releases,releases,global,feed,https://github.com/BerriAI/litellm/releases.atom,600,8,True,
+release-llama-cpp,ggml-org/llama.cpp Releases,releases,global,feed,https://github.com/ggml-org/llama.cpp/releases.atom,600,3,True,
+release-llama-index,run-llama/llama_index Releases,releases,global,feed,https://github.com/run-llama/llama_index/releases.atom,600,8,True,
+release-mcp-python,modelcontextprotocol/python-sdk Releases,releases,global,feed,https://github.com/modelcontextprotocol/python-sdk/releases.atom,600,8,True,
+release-mcp-typescript,modelcontextprotocol/typescript-sdk Releases,releases,global,feed,https://github.com/modelcontextprotocol/typescript-sdk/releases.atom,600,8,True,
+release-mlx,ml-explore/mlx Releases,releases,global,feed,https://github.com/ml-explore/mlx/releases.atom,300,3,True,
+release-mlx-lm,ml-explore/mlx-lm Releases,releases,global,feed,https://github.com/ml-explore/mlx-lm/releases.atom,600,8,True,
+release-ollama,ollama/ollama Releases,releases,global,feed,https://github.com/ollama/ollama/releases.atom,300,3,True,
+release-open-webui,open-webui/open-webui Releases,releases,global,feed,https://github.com/open-webui/open-webui/releases.atom,600,8,True,
+release-openai-python,openai/openai-python Releases,releases,global,feed,https://github.com/openai/openai-python/releases.atom,600,8,True,
+release-opencode,anomalyco/opencode Releases,releases,global,feed,https://github.com/anomalyco/opencode/releases.atom,600,8,True,
+release-openhands,All-Hands-AI/OpenHands Releases,releases,global,feed,https://github.com/All-Hands-AI/OpenHands/releases.atom,600,8,True,
+release-peft,huggingface/peft Releases,releases,global,feed,https://github.com/huggingface/peft/releases.atom,600,8,True,
+release-pytorch,pytorch/pytorch Releases,releases,global,feed,https://github.com/pytorch/pytorch/releases.atom,600,8,True,
+release-qwen-code,QwenLM/qwen-code Releases,releases,global,feed,https://github.com/QwenLM/qwen-code/releases.atom,600,8,True,
+release-ray,ray-project/ray Releases,releases,global,feed,https://github.com/ray-project/ray/releases.atom,600,8,True,
+release-roo-code,RooCodeInc/Roo-Code Releases,releases,global,feed,https://github.com/RooCodeInc/Roo-Code/releases.atom,600,8,True,
+release-sglang,sgl-project/sglang Releases,releases,global,feed,https://github.com/sgl-project/sglang/releases.atom,300,3,True,
+release-tensorflow,tensorflow/tensorflow Releases,releases,global,feed,https://github.com/tensorflow/tensorflow/releases.atom,600,8,True,
+release-tensorrt-llm,NVIDIA/TensorRT-LLM Releases,releases,global,feed,https://github.com/NVIDIA/TensorRT-LLM/releases.atom,600,8,True,
+release-transformers,huggingface/transformers Releases,releases,global,feed,https://github.com/huggingface/transformers/releases.atom,300,3,True,
+release-triton,triton-lang/triton Releases,releases,global,feed,https://github.com/triton-lang/triton/releases.atom,600,8,True,
+release-trl,huggingface/trl Releases,releases,global,feed,https://github.com/huggingface/trl/releases.atom,600,8,True,
+release-unsloth,unslothai/unsloth Releases,releases,global,feed,https://github.com/unslothai/unsloth/releases.atom,600,8,True,
+release-verl,volcengine/verl Releases,releases,global,feed,https://github.com/volcengine/verl/releases.atom,600,8,True,
+release-vllm,vllm-project/vllm Releases,releases,global,feed,https://github.com/vllm-project/vllm/releases.atom,300,3,True,
+replicate,Replicate,tools,global,feed,https://replicate.com/blog/rss,600,5,True,False
+replit,Replit,tools,global,feed,https://blog.replit.com/feed.xml,600,5,True,False
+repos-allenai,GitHub · allenai 저장소 목록,models,global,links,https://github.com/orgs/allenai/repositories?type=all&sort=created,1800,12,True,
+repos-black-forest-labs,GitHub · black-forest-labs 저장소 목록,models,global,links,https://github.com/orgs/black-forest-labs/repositories?type=all&sort=created,1800,12,True,
+repos-deepseek-ai,GitHub · deepseek-ai 저장소 목록,models,global,links,https://github.com/orgs/deepseek-ai/repositories?type=all&sort=created,1800,12,True,
+repos-minimax-ai,GitHub · MiniMax-AI 저장소 목록,models,global,links,https://github.com/orgs/MiniMax-AI/repositories?type=all&sort=created,1800,12,True,
+repos-moonshotai,GitHub · MoonshotAI 저장소 목록,models,global,links,https://github.com/orgs/MoonshotAI/repositories?type=all&sort=created,1800,12,True,
+repos-openbmb,GitHub · OpenBMB 저장소 목록,models,global,links,https://github.com/orgs/OpenBMB/repositories?type=all&sort=created,1800,12,True,
+repos-qwenlm,GitHub · QwenLM 저장소 목록,models,global,links,https://github.com/orgs/QwenLM/repositories?type=all&sort=created,1800,12,True,
+repos-stability-ai,GitHub · Stability-AI 저장소 목록,models,global,links,https://github.com/orgs/Stability-AI/repositories?type=all&sort=created,1800,12,True,
+repos-stepfun-ai,GitHub · stepfun-ai 저장소 목록,models,global,links,https://github.com/orgs/stepfun-ai/repositories?type=all&sort=created,1800,12,True,
+repos-tencent-hunyuan,GitHub · Tencent-Hunyuan 저장소 목록,models,global,links,https://github.com/orgs/Tencent-Hunyuan/repositories?type=all&sort=created,1800,12,True,
+repos-zai-org,GitHub · zai-org 저장소 목록,models,global,links,https://github.com/orgs/zai-org/repositories?type=all&sort=created,1800,12,True,
+runway-map,Runway News Sitemap,tools,global,sitemap,https://runway.com/sitemap.xml,900,5,False,
+sakana,Sakana AI,official,global,links,https://sakana.ai/,300,2,True,
+samsung-news,Samsung Newsroom Korea,korea,kr,feed,https://news.samsung.com/kr/feed,300,5,True,True
+sebastian-raschka,Ahead of AI,media,global,feed,https://magazine.sebastianraschka.com/feed,600,5,True,False
+siliconangle,SiliconANGLE,media,global,feed,https://siliconangle.com/feed/,600,5,True,True
+simonwillison,Simon Willison,media,global,feed,https://simonwillison.net/atom/everything/,600,5,True,True
+sk-news,SK Telecom Newsroom,korea,kr,feed,https://news.sktelecom.com/feed,300,5,True,True
+stability,Stability AI,tools,global,feed,https://stability.ai/news-updates?format=rss,600,5,True,
+stanford-hai,Stanford HAI,research,global,links,https://hai.stanford.edu/news,1800,10,False,
+techcrunch-ai,TechCrunch AI,media,global,feed,https://techcrunch.com/category/artificial-intelligence/feed/,600,5,True,False
+techxplore-ai,Tech Xplore AI,media,global,feed,https://techxplore.com/rss-feed/machine-learning-ai-news/,600,5,True,False
+tensorflow-blog,TensorFlow Blog,tools,global,feed,https://blog.tensorflow.org/feeds/posts/default?alt=rss,600,5,True,False
+thedecoder,The Decoder,media,global,feed,https://the-decoder.com/feed/,600,5,True,False
+theregister-ai,The Register AI,media,global,feed,https://www.theregister.com/software/ai_ml/headlines.atom,600,5,True,False
+together,Together AI,tools,global,feed,https://www.together.ai/blog/rss.xml,600,5,True,False
+uniteai,Unite AI,media,global,feed,https://www.unite.ai/feed/,600,5,True,
+vercel-ai,Vercel Blog,tools,global,feed,https://vercel.com/atom,600,5,True,True
+verge-ai,The Verge AI,media,global,feed,https://www.theverge.com/rss/ai-artificial-intelligence/index.xml,600,5,True,False
+wired-ai,Wired AI,media,global,feed,https://www.wired.com/feed/tag/ai/latest/rss,600,5,True,False
+yozm,요즘IT,korea,kr,feed,https://yozm.wishket.com/magazine/feed/,300,5,True,True
+zdnet-ai,ZDNET AI,media,global,feed,https://www.zdnet.com/topic/artificial-intelligence/rss.xml,600,5,True,False
+hackernews-primary,Hacker News 공식 인기글,community,global,feed,https://news.ycombinator.com/rss,600,10,False,True
