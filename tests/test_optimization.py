@@ -37,7 +37,7 @@ class OptimizationTests(unittest.TestCase):
             order.append(source['id']);t=time.time()
             return dict(started=t,finished=t,status=200,headers={},entries=[item('a','Actual story',source['url'])],fetch_ms=0)
         try:
-            with patch('radar.fetch_source',fake):
+            with patch.object(radar,'fetch',fake):
                 thread=threading.Thread(target=radar.run_polls);thread.start()
                 time.sleep(1.15);radar.stop.set();thread.join(3)
             self.assertFalse(thread.is_alive())
@@ -72,7 +72,7 @@ class OptimizationTests(unittest.TestCase):
             order.append(source['id']);t=time.time()
             return dict(started=t,finished=t,status=200,headers={},entries=[item('a','Actual story',source['url'])],fetch_ms=0)
         try:
-            with patch('radar.fetch_source',fake):
+            with patch.object(radar,'fetch',fake):
                 thread=threading.Thread(target=radar.run_polls);thread.start()
                 time.sleep(2.15);radar.stop.set();thread.join(3)
             self.assertFalse(thread.is_alive());self.assertIn('first',order)

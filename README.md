@@ -2,7 +2,7 @@
 
 A local, free-to-run AI news collector for a Mac, with a Korean dashboard and a native notification helper. No X API, paid crawler, LLM API, proxy subscription or hosted server is required. It stores headline/link/time/hash metadata, not full articles or model weights.
 
-The catalog contains **203 public collection paths across 102 hosts**: official announcements, model/repository lists, open-source releases, product blogs, international and Korean media, research, communities, multilingual news search and policy sources. Paths are not distinct publishers. Availability and feed windows change; this is not a complete index of all AI news.
+The catalog contains **152 public collection paths across 101 hosts**: official announcements, Hugging Face model lists, product blogs, international and Korean media, research, communities, multilingual news search and policy sources. GitHub release/repository feeds are deliberately not collected. Paths are not distinct publishers. Availability and feed windows change; this is not a complete index of all AI news.
 
 ## Mac mini quick start
 
@@ -98,9 +98,27 @@ Backups contain private history/preferences and config, are created with mode 06
 
 See [operations and recovery](docs/OPERATIONS.md) for logs, remote viewing and handoff.
 
+## Code layout
+
+`radar.py` is the collector entry point (the LaunchAgent runs it); the implementation is the `newsradar` package:
+
+| Module | Responsibility |
+|---|---|
+| `timeutil` | ISO timestamps; parsing source times into an instant, a date or unknown |
+| `items` | text cleaning, canonical URLs, AI-term matching, the collected-item record |
+| `parsers` | one parser per source `kind`: `feed`, `sitemap`, `hf_models`, `anthropic`, `links`, `changelog` |
+| `policy` | next-poll interval: cache freshness, `Retry-After`/`X-Poll-Interval` (capped at one day), backoff |
+| `fetcher` | conditional, size- and time-bounded HTTP fetch of one source |
+| `store` | SQLite schema and additive migrations, event classification, dashboard queries |
+| `scheduler` | which due sources to fetch next; one request per host; host throttling |
+| `web` | loopback dashboard and JSON API |
+| `app` | the service (poller thread + web server + watchdog) and the command line |
+
+`manage.py` installs/supervises the LaunchAgents and makes private backups; `build_native.py` builds the notification helper from `native/main.swift`; `static/` is the dashboard.
+
 ## Verification and limits
 
-Run `python3 -m unittest discover -s tests -v`. Tests use local fixtures and cover parsing, baselines, timing, deduplication, scheduling, gzip/truncation, migration, configuration ownership and supervision. CI runs Python 3.9/3.13 tests plus a macOS native compile/signature check using standard public-repository runners. [GitHub documents standard public-runner usage as free](https://docs.github.com/en/billing/concepts/product-billing/github-actions).
+Run `python3 -m unittest discover -s tests -v` (stdlib only, about 30 seconds, no network). Tests use local fixtures and HTTP servers and cover every parser kind, URL/time normalisation, polling policy and backoff, bounded fetching (gzip bombs, truncation, timeouts, redirects), event classification, migrations, the web API and its Host/Origin checks, the scheduler, supervision, the installer and an end-to-end feed-to-dashboard run. Seeded property tests feed random and mutated documents, URLs, timestamps and headers to the parsers, normalisers, policy and store. CI runs Python 3.9/3.13 tests plus a macOS native compile/signature check using standard public-repository runners. [GitHub documents standard public-runner usage as free](https://docs.github.com/en/billing/concepts/product-billing/github-actions).
 
 Compilation and local fixture tests do not prove operation on a particular Mac mini or notification banner delivery. Each destination needs its own install, permission and live health check. HTTPS certificate validation stays enabled. Public endpoints can disappear, reject requests or change structure; current failures remain visible and retry.
 

@@ -19,7 +19,7 @@ class SupervisionTests(unittest.TestCase):
             server=ThreadingHTTPServer(('127.0.0.1',0),radar.handler());config['port']=server.server_port
             threading.Thread(target=server.serve_forever,daemon=True).start()
             try:
-                with patch('radar.time.monotonic',return_value=.1):
+                with patch('newsradar.web.time.monotonic',return_value=.1):
                     req=Request('http://127.0.0.1:%s/api/test'%server.server_port,data=b'{}',headers={'Content-Type':'application/json'})
                     with urlopen(req) as response:self.assertGreater(json.load(response)['id'],0)
             finally:server.shutdown();server.server_close();radar.store.db.close()

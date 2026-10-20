@@ -133,7 +133,7 @@ class ExpansionTests(unittest.TestCase):
             started=time.time()
             if source['id']=='b':time.sleep(1.8)
             return dict(started=started,finished=time.time(),status=200,headers={},entries=[item('key','AI story',source['url'])],fetch_ms=1)
-        with patch('radar.fetch_source',fetch):
+        with patch.object(radar,'fetch',fetch):
             thread=threading.Thread(target=radar.run_polls);thread.start();time.sleep(1.65);radar.stop.set();thread.join(4)
         self.assertFalse(thread.is_alive());self.assertGreaterEqual(counts['a'],2);self.assertEqual(counts['b'],1)
         radar.store.db.close()
@@ -147,7 +147,7 @@ class ExpansionTests(unittest.TestCase):
         def fetch(source,previous):
             order.append(source['id']);now=time.time()
             return dict(started=now,finished=now,status=200,headers={},entries=[item('a','Story','https://a.test/a')],fetch_ms=0)
-        with patch('radar.fetch_source',fetch):
+        with patch.object(radar,'fetch',fetch):
             thread=threading.Thread(target=radar.run_polls);thread.start();time.sleep(1.15);radar.stop.set();thread.join(3)
         self.assertEqual(order[:2],['bg1','core']);radar.store.db.close()
 
